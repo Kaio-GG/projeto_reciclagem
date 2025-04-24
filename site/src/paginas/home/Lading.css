@@ -77,7 +77,7 @@ body{
 }
 
 .container__inicio{
-    background: url("./assets/paisagem.png");
+    background: url("../../../public/assets/image/paisagem.png");
     background-position: center;
     background-size: cover;
     background-attachment: fixed; 
