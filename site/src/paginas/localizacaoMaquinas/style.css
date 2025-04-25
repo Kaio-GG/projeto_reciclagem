@@ -43,6 +43,20 @@ main {
     margin-bottom: 20px;
 }
 
+.texto {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.localizaçao {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 40px;
+
+}
+
 .rodape {
     display: flex;
     justify-content: space-between;
