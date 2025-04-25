@@ -54,7 +54,16 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(100px, auto);
     margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
+}
+
+section {
+    margin-left: 10px;
 }
 
 .rodape {
