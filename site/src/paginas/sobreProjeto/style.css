@@ -1,0 +1,100 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #F8F4E1;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A02323;
+    padding: 10px;
+}
+
+.logo{
+    height: 50px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.tema{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temas{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-right: 70px;
+}
+
+.reciclagem{
+    color: black;
+    height: 1300px;
+    max-width: 1700px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 70px;
+}
+
+.subtitulo__reciclagem{
+    margin-top: 10px;
+
+}
+
+.imagem-reciclagem{
+    margin-left: 300px;
+    padding-bottom: 50px;
+}
+
+.reciclagem__titulo{
+    font-weight: 500;
+    display: flex;
+    font-size: 30px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.titulo-destaque{
+    color: #93DB70;
+}
+
+.reciclagem-texto{
+    font-size: 20px;
+}
+
+.reciclagem__pontos{
+    margin-left: 30px;
+    
+}
+
+.reciclagem-fim__texto{
+    display: flex;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 120px;
+    font-size: 20px;
+}
+
+.temas:hover{
+    color: gray;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: #3D3D3D;
+    padding: 20px;
+}
