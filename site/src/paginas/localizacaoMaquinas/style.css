@@ -45,7 +45,8 @@ main {
 
 .texto {
     font-size: 20px;
-    margin-left: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 20px;
 }
 
@@ -63,8 +64,28 @@ main {
 }
 
 section {
-    margin-left: 10px;
+    padding: 11px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
+
+.beneficios {
+    margin-left: 268px;
+}
+
+.contribuindo {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+
 
 .rodape {
     display: flex;
