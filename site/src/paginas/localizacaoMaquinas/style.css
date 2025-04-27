@@ -39,9 +39,53 @@ main {
 .titulo {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 20px;
 }
+
+.texto {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.localizaçao {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+section {
+    padding: 11px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.beneficios {
+    margin-left: 268px;
+}
+
+.contribuindo {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+
 
 .rodape {
     display: flex;
