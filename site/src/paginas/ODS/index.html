@@ -9,6 +9,39 @@
       box-sizing: border-box;
     }
 
+    .cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A02323;
+    padding: 10px;
+}
+
+.temas:hover{
+    color: gray;
+}
+
+.logo{
+    height: 50px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.tema{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temas{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-right: 70px;
+}
+
+    
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -63,13 +96,20 @@
       line-height: 1.4;
     }
 
-    footer {
-      background-color: #cc0000;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      animation: fadeIn 1.5s ease-in;
-    }
+    .rodape{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: #3D3D3D;
+    padding: 20px;
+}
+
+.rodape__link{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
 
     /* Animações */
     @keyframes fadeIn {
@@ -92,10 +132,16 @@
 <body>
 
   <!-- Cabeçalho -->
-  <header>
-    <h1>Dow Brasil</h1>
-    <p>Consumo e Produção Responsáveis</p>
-  </header>
+  <div>
+    <header class="cabecalho">
+            <a href="../../paginas/home/index.html"><img src="../../../public/assets/image/Logo_red.svg" alt="Logo Dow" class="logo"></a>
+        <div class="tema">
+            <a href="index.html" class="temas">Home</a>
+            <a href="#" target="_blank" class="temas">Sobre Nós</a>
+            <a href="../../../src/paginas/ODS/index.html" class="temas">Sobre a ODS</a>
+        </div>
+    </header>
+</div>
 
   <!-- Banner de destaque -->
   <div class="banner">
@@ -123,9 +169,22 @@
   </div>
 
   <!-- Rodapé -->
-  <footer>
-    <p>&copy; 2025 Dow Brasil. Todos os direitos reservados.</p>
-  </footer>
+  <footer class="rodape">
+    <p>Desenvolvido e projetado por Kaue Vinicius de Andrade</p>
+    <div class="rodape__link">
+        <p>Nos siga em nossas redes sociais:</p>
+        <a href="https://www.linkedin.com/company/dow-chemical/">
+        <img src="../../../public/assets/image/linkedin.svg" alt="logo linkedin"></a>
+        <a href="https://x.com/DowNewsroom">
+        <img src="../../../public/assets/image/twitterx.svg" alt="logo X"></a>
+        <a href="https://www.facebook.com/dow/">
+        <img src="../../../public/assets/image/facebook.svg" alt="logo Facebook"></a> 
+        <a href="https://www.youtube.com/dowchemicalcompany">
+        <img src="../../../public/assets/image/youtube.svg" alt="Logo Youtube"></a> 
+        <a href="https://www.instagram.com/dow_official">
+        <img src="../../../public/assets/image/instagram.svg" alt="Logo instagram"></a>
+    </div>
+</footer>
 
 </body>
 </html>
