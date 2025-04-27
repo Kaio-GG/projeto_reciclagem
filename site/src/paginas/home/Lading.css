@@ -3,7 +3,7 @@
     padding: 0%;
 }
 
-body{
+body {
     height: 100vh;
     box-sizing: border-box;
     background-color: #F8F4E1;
@@ -11,7 +11,7 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
-.cabecalho{
+.cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,19 +19,19 @@ body{
     padding: 10px;
 }
 
-.logo{
+.logo {
     height: 50px;
     margin-left: 30px;
     margin-right: 10px;
 }
 
-.tema{
+.tema {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.temas{
+.temas {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -39,32 +39,32 @@ body{
     margin-right: 70px;
 }
 
-.titulo{
+.titulo {
     color: #FF7777;
     display: flex;
     font-size: 30px;
 }
 
-.titulo__subtitulo{
+.titulo__subtitulo {
     color: white;
     font-size: 30px;
     margin-bottom: 15px;
 }
 
-.titulo__subtitulo__texto{
+.titulo__subtitulo__texto {
     color: white;
     font-size: 21px;
     margin-bottom: 25px;
 }
 
-.projetos{
+.projetos {
     display: flex;
     flex-direction: row;
     gap: 30px;
     margin-top: 70px;
 }
 
-.projeto__btn{
+.projeto__btn {
     border: 2px solid #A02323;
     padding: 10px 5px;
     width: 200px;
@@ -76,21 +76,21 @@ body{
     font-size: 17px;
 }
 
-.container__inicio{
+.container__inicio {
     background: url("../../../public/assets/image/paisagem.png");
     background-position: center;
     background-size: cover;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     height: 700px;
 }
 
-.conteudo__inicio{
+.conteudo__inicio {
     max-width: 1500px;
     margin: auto;
     padding-top: 200px;
 }
 
-.container__quemsomos{
+.container__quemsomos {
     background-color: #A02323;
     height: 350px;
     padding: 25px 0px;
@@ -100,27 +100,28 @@ body{
     justify-content: center;
     align-items: center;
 }
-.container__quemsomos h1{
+
+.container__quemsomos h1 {
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.container__quemsomos p{
+.container__quemsomos p {
     font-size: 18px;
     margin-bottom: 50px;
     max-width: 1200px;
     text-align: center;
 }
 
-.container__quemsomos a{
+.container__quemsomos a {
     font-size: 18px;
     color: white;
     font-weight: 800;
     letter-spacing: 4px;
 }
 
-.sustentabilidade{
+.sustentabilidade {
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -131,25 +132,25 @@ body{
     margin-top: 30px;
 }
 
-.sustentabilidade__link{
+.sustentabilidade__link {
     text-decoration: none;
     background-color: #DFE9DC;
     border: 1px solid #CDCDCD;
     width: 50%;
     display: flex;
     align-items: center;
-    border-radius:0px 50px 0px 0px;
+    border-radius: 0px 50px 0px 0px;
     justify-content: center;
 }
 
-.sustentabilidade__link a{
+.sustentabilidade__link a {
     color: #719B25;
     width: 40%;
     font-size: 15px;
     font-weight: 900;
 }
 
-.sustentabilidade__info{
+.sustentabilidade__info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,7 +159,7 @@ body{
     text-align: center;
 }
 
-.container__sustentabilidade{
+.container__sustentabilidade {
     background-color: #F8F4E1;
     display: flex;
     flex-direction: column;
@@ -167,12 +168,12 @@ body{
     padding: 100px 0px;
 }
 
-.container__sustentabilidade h1{
+.container__sustentabilidade h1 {
     margin-bottom: 20px;
     color: #CF3333;
 }
 
-.rodape{
+.rodape {
     display: flex;
     justify-content: space-between;
     font-size: 18px;
@@ -180,26 +181,26 @@ body{
     padding: 20px;
 }
 
-.rodape__link{
+.rodape__link {
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     color: white;
 }
 
-.temas:hover{
+.temas:hover {
     color: gray;
 }
 
-.projeto__btn:hover{
+.projeto__btn:hover {
     color: gray;
 }
 
-.container__saibamais:hover{
+.container__saibamais:hover {
     color: gray;
 }
 
-.sustentabilidade__link a:hover{
+.sustentabilidade__link a:hover {
     background-color: #719B25;
     color: #DFE9DC;
 }
