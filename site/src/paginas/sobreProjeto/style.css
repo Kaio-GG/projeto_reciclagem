@@ -54,8 +54,10 @@ body{
 }
 
 .imagem-reciclagem{
-    margin-left: 300px;
-    padding-bottom: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .reciclagem__titulo{
