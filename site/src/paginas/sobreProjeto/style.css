@@ -50,7 +50,6 @@ body{
 
 .subtitulo__reciclagem{
     margin-top: 20px;
-
 }
 
 .imagem-reciclagem{
@@ -77,23 +76,22 @@ body{
 }
 
 .reciclagem__pontos{
+
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 30px;
-    
-}
-
-.reciclagem__pontos2{
-    margin-bottom:100px;
 }
 
 .reciclagem-fim__texto{
     display: flex;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-left: 100px;
     margin-right: 120px;
     font-size: 20px;
+}
+
+.reciclagem-fim{
+    margin-top: 150px;
 }
 
 .img__reciclagem{
