@@ -87,6 +87,10 @@ body{
     font-size: 20px;
 }
 
+.img__reciclagem{
+    height: 300px;
+}
+
 .temas:hover{
     color: gray;
 }
