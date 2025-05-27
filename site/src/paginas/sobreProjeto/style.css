@@ -83,6 +83,10 @@ body{
     
 }
 
+.reciclagem__pontos2{
+    margin-bottom:100px;
+}
+
 .reciclagem-fim__texto{
     display: flex;
     margin-top: 30px;
